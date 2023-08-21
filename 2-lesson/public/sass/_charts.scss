@@ -1,0 +1,52 @@
+.chart1-wrapper h2{
+    color: #313131;
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 29px 0 19px;
+}
+
+.chart{
+    max-width: 304px;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.06);
+    padding: 27px 38px;
+    p{
+        color: #313131;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: 'Poppins';
+        font-size: 24px;
+    }
+    img{
+        margin-top: 47px;
+    }
+}
+
+.absence{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    .absence-count{
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        .rectangle{
+            width: 11px;
+            height: 11px;
+            border-radius: 4px;
+            background: #FF3B30;
+        }
+        
+    }
+    span{
+        color: #404040;
+        text-align: right;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: 'Poppins';
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+}

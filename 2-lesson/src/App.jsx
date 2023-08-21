@@ -1,7 +1,8 @@
 import './app.scss'
+import Chart1 from './components/charts/chart1';
 import Navbar from './components/navbar/Navbar';
 import Sidebar from './components/sidebar/Sidebar';
-import Navbar from './components/navbar/Navbar';
+
 
 function App() {
 
@@ -9,7 +10,10 @@ function App() {
   return (
  <div className="page-wrapper">
   <Sidebar/>
- <Navbar/>
+<div className="navbar-charts-wrapper">
+<Navbar/>
+<Chart1/>
+</div>
  </div>
   )
 }
